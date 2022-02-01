@@ -20,7 +20,7 @@ public class DayOne {
         System.out.println("Enter the marks for fifth subject: ");
         float sub5 = sc.nextFloat();
 
-        float per = ((sub1+sub2+sub3+sub4+sub5)/500)*100;
+        float per = ((sub1+sub2+sub3+sub4+sub5)/500.0f)*100;
         System.out.println("___________________________________________________________");
         System.out.println("                   Percentage is:"+per);
         System.out.println("___________________________________________________________");
